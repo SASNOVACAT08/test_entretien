@@ -1,24 +1,10 @@
-# stage
+Pour installer le projet,
 
-## Project setup
-```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Il faudra aussi le back avec l'API GraphQL sur le port 4000.
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Le projet n'est pas très beau visuellement néanmoins je suis capable de reproduire une maquette sans problème.
+Au départ, je souhaitais utilisais les souscriptions pour faire du temps réel avec l'API. Cependant, il fallait trop toucher au back.
+J'ai donc préféré utilisé pollInterval. Néanmoins, il est évident que cette façon consomme plus de ressources.
