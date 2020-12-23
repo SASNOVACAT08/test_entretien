@@ -1,7 +1,12 @@
 Pour installer le projet,
 
+```
 npm install
+```
+
+```
 npm run serve
+```
 
 Il faudra aussi le back avec l'API GraphQL sur le port 4000.
 
